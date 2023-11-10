@@ -7,14 +7,24 @@ p {
 
 body {
 	margin: 0;
+	padding-top: 80px;
+	padding-left: 80px;
 }
 
 /*header stuff*/
 .header {
-	height: 50px;
+	height: 55px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(230, 230, 230); 
 }
 
 .left-section {
@@ -114,6 +124,18 @@ body {
 	height: 32px;
 	border-radius: 16px; 
 }
+
+/*sibare stuff*/
+.sidebare {
+	position: fixed;
+	left: 0;
+	top: 55px;
+	bottom: 0;
+	width: 72px;
+	background-color: white;
+}
+
+
 
 /*video stuff*/
 .thumbnail {
