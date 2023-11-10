@@ -1,0 +1,79 @@
+
+.top-part {
+
+}
+
+.bottom-part {
+	display: flex;
+}
+
+.pp {
+	margin-top: 5px;
+	height: 55px;
+	width: 100%;
+	border-radius: 23.5px;
+}
+
+.ppp {
+	margin: 0;
+	color: gray;
+	font-size: 12px;
+	margin-left: 2.5px;
+	margin-top: 3.2px;
+}
+
+.CWP {
+	display: flex;
+	flex: 1;
+}
+
+.cw {
+	font-weight: bold;
+	padding-left: 8px;
+}
+
+.tyd {
+	font-size: 15px;
+	color: gray;
+	padding-right: 10px;
+}
+
+.texts {
+	margin: 0;
+	color: gray;
+	margin-left: 10px;
+}
+
+.p {
+	font-family: Arial;
+}
+
+.words {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.top {
+	display: flex;
+	background-color: white;
+	flex: 1;
+}
+
+.bottom {
+	flex: 1;
+}
+
+.time {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+.container {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05 );
+	width: 400px;
+}
